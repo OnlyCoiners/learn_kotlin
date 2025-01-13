@@ -2,8 +2,10 @@
 // $java -jar Main.kt
 // You can also install some plugins and use Control + Option + n to run code.
 
+val companyName = "OnlyCoiners"
+
 fun main() {
-  println("Hello world!")
+  println("Hello world from $companyName")
 }
 
 
