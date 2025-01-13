@@ -2,10 +2,6 @@
 // $java -jar Main.kt
 // You can also install some plugins and use Control + Option + n to run code.
 
-// class Car {
-//   var name = ""
-// }
-
 data class CarBase(var name: String)
 
 class Car(private val fields: CarBase) {
@@ -17,7 +13,6 @@ class Car(private val fields: CarBase) {
     fields.name = new_name // Update the 'name' property
   }
 }
-
 
 // class Car(var name: String) {
 //   fun show_name() {
